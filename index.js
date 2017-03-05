@@ -25,6 +25,9 @@ var status = true;
 // start frequency point
 buzzer.frequency(prev*fq_gap);
 
+// set led brightness
+led.brightness(0.25);
+
 var listener;
 
 function checkListener() {
